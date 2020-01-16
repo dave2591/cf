@@ -10,7 +10,7 @@ To run tests `make run-tests`
 
 Backend: Laravel, PHP 7.4, Docker, Postgres
 
-Frontend: React, TypeScript, SCSS (FE code is in /frontend dir)
+Frontend: React, TypeScript, SCSS (FE code is in /frontend-app dir)
 
 ## Approach
 
