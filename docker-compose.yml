@@ -1,0 +1,31 @@
+version: "3.3"
+
+services:
+  php-fpm:
+    build: "./docker/php-fpm"
+    volumes:
+      - "./:/var/www/currencyfair"
+    dns:
+      - "1.1.1.1"
+      - "1.0.0.1"
+
+  nginx:
+    build: "./docker/nginx"
+    ports:
+      - "2591:80"
+    depends_on:
+      - "php-fpm"
+    volumes:
+      - "./:/var/www/currencyfair"
+
+  postgres:
+    build: "./docker/postgres"
+    restart: "always"
+    environment:
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB: "postgres"
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./docker-data/postgres-data:/var/lib/postgresql/data"
