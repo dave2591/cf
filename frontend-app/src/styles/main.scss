@@ -1,0 +1,15 @@
+.container {
+  background-color: #eeeeee;
+  width: 700px;
+  margin: 70px auto 0;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 4px 4px #00000006;
+
+  .header .logo {
+    text-align: center;
+    img {
+      max-width: 200px;
+    }
+  }
+}

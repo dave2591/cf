@@ -1,0 +1,21 @@
+.transaction-charts {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+
+  .chart {
+    background-color: #fff;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 3em;
+    color: #579ab9;
+
+    .title {
+      font-size: .3em;
+    }
+  }
+}

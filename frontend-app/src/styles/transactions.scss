@@ -1,0 +1,31 @@
+.transaction-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+
+  > div {
+    flex: 1;
+  }
+
+  .currencies {
+    font-size: 2em;
+    color: #ddd;
+  }
+
+  .amounts {
+    > span {
+      font-weight: bold;
+    }
+
+    .rate {
+      font-size: .8em;
+      color: #579ab9;
+    }
+  }
+}
