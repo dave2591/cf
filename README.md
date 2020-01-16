@@ -1,4 +1,4 @@
-# Dave Earley's Tech Test
+# Dave's Tech Test
 
 ## Running the app
 
