@@ -6,10 +6,12 @@
 ![Screenshot](https://github.com/dave2591/cf/blob/master/screenshot.png?raw=true)
 
 
-
 ## Running the app
 
 To start the app run `make currencyFair-run` (Requires docker)
+
+I developed on Ubuntu but it should all work on Mac. If there's an error running that command let
+me know.
 
 To run tests `make run-tests`
 
