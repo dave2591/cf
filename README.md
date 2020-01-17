@@ -39,7 +39,8 @@ the foundations of a large API.
   - Currently the FE is polling the API, this should be using websockets
   - It would have been nice to use a time-series DB like TimeseriesDb or InfluxDB
   - The FE has no tests
-  - Adding visualisations
+  - Adding visualisation
+  - The FE UI isn't responsive
     
 ## cURL requests
  
