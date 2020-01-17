@@ -41,6 +41,7 @@ the foundations of a large API.
   - The FE has no tests
   - Adding visualisation
   - The FE UI isn't responsive
+  - I hackily 0777 some dirs in the setup as I didn't have time to debug docker
     
 ## cURL requests
  
